@@ -4,4 +4,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   def hello
     render html:'<html><body>HELLO WORLD</body></html>'.html_safe
+  end
 end
